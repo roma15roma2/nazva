@@ -72,7 +72,7 @@ def anytoany(num, base):
     newbase = int(input())
     decnum = anytodec(num, base)
     if newbase < 11:
-        return dectoany(str(decnum), newbase)
+        return decto any(str (decnum), newbase)
     else:
         return dectohex(str(decnum), newbase)
 
